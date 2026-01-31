@@ -36,13 +36,11 @@
 ## ⚙️ Hướng dẫn cài đặt
 
 ### 1. Backend
-cd server
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+cd server.
+pip install -r requirements.txt.
+uvicorn app.main:app --reload.
 ### 2. Frontend
-cd client
-npm install
-npm run dev
-cd server
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+cd client.
+npm install.
+npm run dev.
+
