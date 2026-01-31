@@ -33,14 +33,16 @@
 
 ---
 
-## ⚙️ Hướng dẫn cài đặt
+## ⚙️ Hướng dẫn cài đặt và khởi chạy
 
-### 1. Backend
-cd server.
-pip install -r requirements.txt.
-uvicorn app.main:app --reload.
-### 2. Frontend
-cd client.
-npm install.
-npm run dev.
+```bash
+# 1. Cài đặt và chạy Backend
+cd server
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+# 2. Cài đặt và chạy Frontend (Mở một Terminal mới)
+cd client
+npm install
+npm run dev
 
